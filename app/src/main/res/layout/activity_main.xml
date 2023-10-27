@@ -49,8 +49,8 @@
         android:id="@+id/dollarLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cost:"
-        android:textSize="24dp"
+        android:text="Amount:"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/dollar"
         app:layout_constraintHorizontal_bias="0.698"
@@ -61,13 +61,14 @@
     <EditText
 
         android:id="@+id/dollarInput"
-        android:layout_width="208dp"
+        android:layout_width="230dp"
         android:layout_height="68dp"
+        android:hint="Amount"
         android:inputType="numberDecimal"
         android:textSize="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintHorizontal_bias="0.66"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.266" />

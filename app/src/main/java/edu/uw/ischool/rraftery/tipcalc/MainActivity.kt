@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
             toast.show()
         }
         input.addTextChangedListener(DollarTextWatcher(input, moneyCallback));
-        input.setText("0.00")
+//        input.setText("0.00")
 
         val tipInput = this.findViewById<EditText>(R.id.tipInput)
         val tipCallback : (Int) -> Unit = {
